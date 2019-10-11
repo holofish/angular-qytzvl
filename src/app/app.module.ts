@@ -8,11 +8,12 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component';
 import { AppRoutingModule }     from './app-routing.module';
 import { HttpClientModule }    from '@angular/common/http';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, AppRoutingModule, HttpClientModule ],
-  declarations: [ AppComponent, HeroesComponent, HeroDetailComponent, MessagesComponent, DashboardComponent ],
+  declarations: [ AppComponent, HeroesComponent, HeroDetailComponent, MessagesComponent, DashboardComponent, HeroSearchComponent ],
   providers: [],
   bootstrap:    [ AppComponent ]
 })
